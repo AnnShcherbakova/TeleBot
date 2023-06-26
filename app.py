@@ -34,7 +34,7 @@ class CryptoConverter:
 
         url = f'https://min-api.cryptocompare.com/data/price?fsym={quote_ticker}&tsyms={base_ticker}'
         response = requests.get(url)
-        response.raise_for_status()  # Raise an exception if the request encounters an error
+        response.raise_for_status()
 
         try:
             data = json.loads(response.content)
