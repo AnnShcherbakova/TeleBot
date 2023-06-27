@@ -3,7 +3,7 @@ import requests
 import json
 from config import keys, TOKEN
 
-TOKEN = "5949452775:AAGh9gVXNBUVKKBEJidaYRcqU8ORP8ceyx4"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 
